@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#222222">
+
+</head>
+<body>
+<div class="calculator">
+    <h1>calculator</h1>
+    <input type="text" id="display" value="0" readonly>
+    <div class="buttons">
+        <button>AC</button>
+        <button>DEL</button>
+        <button>%</button>
+        <button>/</button>
+
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>*</button>
+
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button id="historyBtn">His</button>
+    </div>
+
+    <div id="history-container" style="margin-top: 15px;">
+        <h3>History</h3>
+        <div id="history"></div>
+        <button id="clearHistoryBtn">Clear All</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
